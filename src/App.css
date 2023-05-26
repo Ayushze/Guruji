@@ -1,0 +1,80 @@
+.App{
+  margin-top: 80px;
+}
+
+h1{
+  text-align:center;
+  color: rgb(153, 131, 131);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.item{
+  background: rgb(153, 131, 131);
+  height: 250px;
+  width: 250px;
+  text-align:center;
+  align-items: center;
+  border-radius: 10%;
+  margin: auto;
+  overflow: initial;
+}
+
+.item:hover img{
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active{
+  background-color: rgb(181, 149, 63) !important;
+}
+
+.GT{
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.nb{
+  background-image: url("https://cdn.wallpapersafari.com/78/71/BRL1nQ.jpg");
+  text-align: center;
+  align-items: center;
+}
+
+.navbar{
+  background-image: url("https://cdn.wallpapersafari.com/78/71/BRL1nQ.jpg");
+}
+
+.head1{
+  color: white;
+  margin-top: 5px;
+}
+
+.para1{
+  color: white;
+  margin-top: 20px;
+}
+
+.btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.crsl{
+  background-color: rgb(226, 170, 101);
+}
+
+.carousel-item{
+  height: 300px;
+  width: 1600px;
+}
+
+.head2{
+  text-align: center;
+  align-items: center;
+}
+
+.container1{
+  background-color: rgb(226, 170, 101);
+}
